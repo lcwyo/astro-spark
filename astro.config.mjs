@@ -9,8 +9,10 @@ import node from '@astrojs/node';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "http://localhost:4321/",
+//  site: "http://localhost:4321/",
   // todo - add site for sitemap
+  site: "https://lcwyo.github.io", 
+  base: "astro-spark", 
   build: {
     format: "directory",
   },
