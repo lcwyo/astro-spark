@@ -84,6 +84,7 @@ export const POST: APIRoute = async ({ request }) => {
     .setTo(recipients)
     .setSubject(sanitizedData.topic)
     .setTemplateId("insert template id")
+    // @ts-ignore
     .setVariables([
       {
         email: EMAIL,
