@@ -1,0 +1,37 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/" # Adjust if your package.json is in a subdirectory
+    schedule:
+      interval: "weekly"
+    # Optional: Set the day and time for checks
+    # day: "monday"
+    # time: "04:00"
+    # timezone: "UTC"
+    open-pull-requests-limit: 10 # Limit the number of open PRs
+    groups:
+      astro:
+        applies-to: version-updates
+        patterns:
+        - "@astrojs*"
+        update-types:
+        - "minor"
+        - "patch"
+      minor-and-patch:
+        applies-to: security-updates
+        patterns:
+        - "@astrojs*"
+        update-types:
+        - "patch"
+        - "minor"
+    ignore:
+      - dependency-name: "@angular*"
+        update-types: ["version-update:semver-major"]
+
+  # Optional: GitHub Actions dependency updates
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
