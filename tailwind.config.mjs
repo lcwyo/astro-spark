@@ -28,14 +28,15 @@ export default {
       },
       colors: {
         white: "#FFFFFF",
-        accent: "#2CA02C",
-        gray: "#13151a",
-        elevated: "#fbf7f5",
-        negative: "#E62323",
-        positive: "#00d255",
-        primary: "#563edc",
-        secondary: "#cb29ef",
+        accent: "#2EC44B", // Vibrant green, inspired by natural tones, for buttons or highlights
+        gray: "#0D0E12", // Darker gray for strong contrast against vibrant colors
+        elevated: "#FAF5F0", // Slightly warmer off-white, for a soft but clean background
+        negative: "#E63946", // Bold red, slightly more saturated to stand out in warnings or alerts
+        positive: "#10B981", // Bright, engaging green, suitable for success messages
+        primary: "#4A1CD4", // Deeper, royal purple for a strong primary color
+        secondary: "#D946EF", // Vibrant magenta for secondary accents to add energy
       },
+
       keyframes: {
         slider: {
           from: { transform: "translate(0)" },

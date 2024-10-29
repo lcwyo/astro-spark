@@ -319,4 +319,110 @@ export const ui = {
     "test.iconCardDescription":
       "Un élément de liste (<li>) réactif et interactif qui fonctionne comme une carte d'icône avec une image et un titre, en utilisant Tailwind CSS pour le style.",
   },
+  de: {
+    "layout.test": "Spark",
+    "hero.title": "Das beste minimalistische Astro-Starter-Template!",
+    "hero.description":
+      "Starte Astro-Projekte mit Leichtigkeit und Stil. Minimalistisches Design, maximale Funktionalität. Ob erfahren oder neu, Spark vereinfacht deine Entwicklung für beeindruckende Astro-Websites.",
+    "integration.title": "Integrationen",
+    "integration.description":
+      "Klicke auf eine Karte unten, um die Dokumentation zur Integration zu öffnen.",
+    "faq.title": "FAQ",
+    "faq.why": "Warum wurde dieses Template erstellt?",
+    "faq.who": "Wer hat dieses Template erstellt?",
+    "faq.tech": "Welche Technologien wurden für dieses Template verwendet?",
+    "faq.reason_why":
+      "Ich habe dieses Template erstellt, weil ich mehr über Astro lernen wollte.",
+    "faq.reason_who": "Dieses Template wurde ausschließlich von mir, Ruben Winant, erstellt.",
+    "faq.reason_tech":
+      "Ich habe Astro, Alpine.js, mdx, Sitemap, Tailwind, Vercel und MailerSend verwendet.",
+    "faq.description": "Dies ist die FAQ-Seite.",
+    "nav.components": "Komponenten",
+    "nav.faq": "FAQ",
+    "nav.contact": "Kontakt",
+    "nav.blog": "Blog",
+    "footer.copyright":
+      "Spark Theme. Alle Rechte vorbehalten. Dieses Projekt ist unabhängig und wird weder von Astro noch von Tailwind Labs unterstützt oder gesponsert.",
+    "footer.createdBy": "Erstellt von",
+    "footer.createdBy2":
+      "mit Astro und Tailwind aus dem schönen Bierbeek, Belgien.",
+    "faq.contact": "Nicht gefunden, wonach du gesucht hast?",
+    "faq.contactUs": "Kontaktiere uns!",
+    "contact.title": "Kontakt",
+    "contact.field_name": "Name",
+    "contact.field_topic": "Thema",
+    "contact.field_email": "E-Mail",
+    "contact.field_message": "Nachricht",
+    "contact.topic_Inquiry": "Anfrage",
+    "contact.topic_Feedback": "Feedback",
+    "contact.topic_Other": "Andere",
+    "contact.submit": "Senden",
+    "contact.description":
+      "Eine einfache Kontaktseite mit Astro und MailerSend zur Versendung von E-Mails über deren API.",
+    "contact.error_name": "Bitte gib einen gültigen Namen ein.",
+    "contact.error_message": "Bitte gib eine gültige Nachricht ein.",
+    "contact.error_email": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "contact.error_topic": "Bitte wähle ein gültiges Thema.",
+    "contact.success": "E-Mail wurde erfolgreich gesendet",
+    "contact.error_general": "Etwas ist schiefgelaufen, versuche es später noch einmal",
+    "slider.title": "Alles, was du brauchst, um zu starten",
+    "slider.card_1_title": "Kein JavaScript, standardmäßig",
+    "slider.card_1_description":
+      "Astro liefert nur das benötigte JavaScript und entfernt automatisch den Rest für eine schnellere Website.",
+    "slider.card_2_title": "Interaktiv, wenn benötigt",
+    "slider.card_2_description":
+      "Alpine ist ein robustes, minimalistisches Tool zur Verhaltenssteuerung direkt in deinem Markup. Denk daran wie an jQuery für das moderne Web.",
+    "slider.card_3_title": "Mehrsprachige Unterstützung",
+    "slider.card_3_description":
+      "Mehrsprachige Unterstützung direkt out-of-the-box dank Astro's integrierter i18n-Funktionen, um deine Inhalte einem breiteren Publikum zugänglich zu machen.",
+    "slider.card_4_title": "Gestaltung mit Tailwind CSS",
+    "slider.card_4_description":
+      "Gestalte deine Website direkt in HTML mit utility-first CSS-Klassen, das macht das Design kinderleicht.",
+    "slider.card_5_title": "SEO optimiert",
+    "slider.card_5_description":
+      "Astros Sitemap-Integration hilft Suchmaschinen, deine Inhalte zu finden und verbessert mühelos das SEO deiner Website.",
+    "features.title": "Funktionen",
+    "components.description":
+      "Hier findest du eine Sammlung von Elementen, Icons und anderen Dingen, die dieses Theme bietet.",
+    "test.title": "Beispielkarte",
+    "test.description":
+      "Dies ist eine Platzhalterkarte, um die grundlegende Struktur und Funktionalität eines Elements zu demonstrieren. Du kannst Inhalt und Design an deine speziellen Bedürfnisse anpassen.",
+    "test.iconTitle": "Icons",
+    "test.iconDescription":
+      "Fahre über jedes Icon, um seinen Namen zu sehen. Alle Icons sind SVG-Dateien im Verzeichnis public/icons.",
+    "test.dropdownCardTitle": "Dropdown-Karten",
+    "test.dropdownCardDescription": "Betrieben von alpine.js",
+    "test.fullWidthBannerTitle": "Banner in voller Breite",
+    "test.fullWidthBannerDescription":
+      "Ein Banner in voller Breite mit einem optionalen CTA-Button",
+    "test.button": "Klick hier",
+    "test.autoSliderTitle": "Auto-Slider mit TextCards",
+    "test.autoSliderDescription":
+      "Ein JS-freier, nur-CSS-Auto-Slider, bei dem die Animation durch Überfahren einer Karte pausiert werden kann. Ein optionaler Titel und eine Beschreibung können ebenfalls angegeben werden.",
+    "test.containersTitle": "Container",
+    "test.cardGridDescription":
+      "Das CardGrid-Component ermöglicht ein flexibles Layout. Inhalte können über den Slot 'upper-row' oder 'lower-row' bereitgestellt werden, und das Component verteilt sie automatisch in Spalten.",
+    "test.cardGridTitle": "Was ist enthalten",
+    "test.cardGridTitle1": "Kontaktseite",
+    "test.cardGridDescription1":
+      "Erfasse Leads und bleibe über ein benutzerfreundliches Kontaktformular, unterstützt durch MailerSend, in Kontakt.",
+    "test.cardGridTitle2": "Blog, startbereit",
+    "test.cardGridDescription2":
+      "Starte mit dem I18N-kompatiblen, MDX-gestützten Blog!",
+    "test.cardGridTitle3": "Einfache Einrichtung",
+    "test.cardGridDescription3":
+      "Schnell einsatzbereit mit unseren vorgefertigten Seiten und Komponenten.",
+    "test.cardGridTitle4": "FAQ-Seite",
+    "test.cardGridDescription4":
+      "Leute könnten Fragen haben, jetzt kannst du sie beantworten!",
+    "test.cardGridTitle5": "Sprich ihre Sprache",
+    "test.cardGridDescription5": "I18N integriert. Konvertiere mehr!",
+    "test.cardsTitle": "Karten",
+    "test.cardsDescription": "Einige der vorgefertigten Kartenkomponenten.",
+    "test.cardClass":
+      "Diese CSS-Klasse .card ist für eine flexible, optisch ansprechende Kartenkomponente mit verschiedenen Stilen und Hover-Effekten konzipiert.",
+    "test.iconCardDescription":
+      "Ein responsives, interaktives Listenelement (<li>), das als Icon-Karte mit Bild und Titel fungiert und mit Tailwind CSS gestaltet ist.",
+  },
+
 };

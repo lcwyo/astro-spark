@@ -24,3 +24,7 @@ pnpm-debug.log*
 .idea/
 
 astro_tmp_pages_*
+
+# yarn stuff
+.pnp.cjs
+.pnp.loader.mjs

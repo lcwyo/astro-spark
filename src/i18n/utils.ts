@@ -1,11 +1,10 @@
 import { ui } from "./ui";
 
-export const DEFAULT_LOCALE = "nl";
+export const DEFAULT_LOCALE = "en";
 
 export const LOCALES = {
   en: "en-US",
-  nl: "be-nl",
-  fr: "be-fr",
+  de: "de-de",
 };
 
 export type UiType = keyof typeof ui;
