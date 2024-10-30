@@ -2,8 +2,6 @@
 
 Astro Spark is a modern starter template optimized for static sites, built using Astro.
 
-Demo available at https://www.spark.rubenwinant.be/en
-
 ## Features
 
 - Astro for blazing-fast static site generation.
@@ -13,47 +11,7 @@ Demo available at https://www.spark.rubenwinant.be/en
 - Sitemap Generator: Automatically generates a sitemap for SEO.
 - SEO Optimized: Meta tags, Open Graph, and structured data support.
 - Responsive Design: Out-of-the-box mobile responsiveness.
-- 
-
-## Installation
-
-First, clone the repository and navigate to the project folder:
-
-```
-git clone https://github.com/Ruben-Winant/astro_spark_template
-cd astro_spark_template
-```
-
-Next, install the necessary dependencies:
-
-```
-npm install
-```
-
-## Usage
-
-To start the development server, run:
-
-```
-npm run dev
-```
-
-This will launch a local development server accessible at `http://localhost:3000`, allowing you to see changes in real-time.
-
-To build the project for production:
-
-```
-npm run build
-```
-
-This will create an optimized static site in the `dist/` folder.
-
-## Scripts
-
-- `npm run dev`: Starts the development server.
-- `npm run build`: Builds the project for production.
-- `npm run preview`: Previews the production build locally.
-- `npm run astro ...`: Use this for custom Astro commands.
+-
 
 ## Project Structure
 

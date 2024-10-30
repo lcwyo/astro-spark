@@ -1,16 +1,16 @@
 ---
 interface Props {
-  title: string;
-  imgHref: string;
-  imgAlt: string;
-  href: string;
+	title: string;
+	imgHref: string;
+	imgAlt: string;
+	href: string;
 }
 
 const { href, title, imgHref, imgAlt } = Astro.props;
 ---
 
 <li
-  class="list-none bg-[length:200%_200%]
+	class="list-none bg-[length:200%_200%]
   bg-left-bottom
   hover:bg-right-top
   focus-within:bg-right-top
@@ -29,23 +29,23 @@ const { href, title, imgHref, imgAlt } = Astro.props;
   min-w-24
   md:max-w-32 group"
 >
-  <a
-    href={href}
-    target="_blank"
-    class="grid grid-cols-3 grid-rows-3 w-full h-full p-4 place-content-center relative"
-    ><div
-      class="w-full h-full absolute bg-[url(/noise.svg)] opacity-0 group-focus-within:opacity-50 group-hover:opacity-50 rounded-md"
-    >
-    </div>
-    <div class="w-4/5 row-span-2 col-span-3 mx-auto z-10">
-      <img
-        src={imgHref}
-        alt={imgAlt}
-        class="w-full h-full m-auto brightness-0 group-hover:brightness-100"
-      />
-    </div>
-    <span class="text-xs lg:text-base col-span-3 mx-auto mt-auto z-10">
-      {title}
-    </span>
-  </a>
+	<a
+		href={href}
+		target="_blank"
+		class="grid grid-cols-3 grid-rows-3 w-full h-full p-4 place-content-center relative"
+		><div
+			class="w-full h-full absolute bg-[url(/noise.svg)] opacity-0 group-focus-within:opacity-50 group-hover:opacity-50 rounded-md"
+		>
+		</div>
+		<div class="w-4/5 row-span-2 col-span-3 mx-auto z-10">
+			<img
+				src={imgHref}
+				alt={imgAlt}
+				class="w-full h-full m-auto brightness-0 group-hover:brightness-100"
+			/>
+		</div>
+		<span class="text-xs lg:text-base col-span-3 mx-auto mt-auto z-10">
+			{title}
+		</span>
+	</a>
 </li>
