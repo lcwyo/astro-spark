@@ -13,7 +13,7 @@ export const POST: APIRoute = async ({ request }) => {
 
 	const t = useTranslations(lang);
 
-	const EMAIL: string = 'example@hotmail.com';
+	const EMAIL = 'example@hotmail.com';
 	const mailerSend = new MailerSend({
 		apiKey: import.meta.env.MAILERSEND_API_KEY ?? '',
 	});
@@ -59,10 +59,10 @@ export const POST: APIRoute = async ({ request }) => {
 	// Sanitize inputs
 	const sanitizeInput = (input: FormDataEntryValue) => input.toString().replace(/<[^>]*>?/gm, '');
 	const sanitizedData = {
-		name: sanitizeInput(name as FormDataEntryValue),
-		email: sanitizeInput(email as FormDataEntryValue),
-		message: sanitizeInput(message as FormDataEntryValue),
-		topic: sanitizeInput(topic as FormDataEntryValue),
+		name: sanitizeInput(name!),
+		email: sanitizeInput(email!),
+		message: sanitizeInput(message!),
+		topic: sanitizeInput(topic!),
 	};
 
 	const emailParams = new EmailParams()

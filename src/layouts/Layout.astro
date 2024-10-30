@@ -64,6 +64,7 @@ const { title, lang, description } = Astro.props;
 
 			header {
 				display: inline;
+				@apply bg-gradient-to-r from-primary to-secondary;
 			}
 
 			header,
@@ -141,6 +142,8 @@ const { title, lang, description } = Astro.props;
 
 			section {
 				@apply my-8;
+				@apply bg-gradient-to-br from-white via-elevated to-gray/10;
+				@apply p-8 rounded-lg shadow-md;
 			}
 
 			.link {
@@ -150,7 +153,6 @@ const { title, lang, description } = Astro.props;
 			.fancy {
 				@apply bg-gradient-to-tr from-primary to-secondary bg-clip-text text-transparent;
 			}
-
 			.group:hover .btn-primary,
 			.group:focus-within .btn-primary {
 				@apply bg-right-top bg-gradient-to-tr from-primary via-75% to-secondary bg-clip-border text-white;

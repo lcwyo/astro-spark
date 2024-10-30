@@ -1,0 +1,23 @@
+---
+import { getLangFromUrl, useTranslations, LOCALES } from '../../i18n/utils';
+import Layout from '../../layouts/Layout.astro';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+export const prerender = true;
+export async function getStaticPaths() {
+	return Object.keys(LOCALES).map((lang) => {
+		return { params: { lang } };
+	});
+}
+---
+
+<Layout title={t('layout.test')} lang={lang}>
+	<main class="container mx-auto">
+		<section>
+			<h1>{t('about.title')}</h1>
+			<p>{t('about.description')}</p>
+		</section>
+	</main>
+</Layout>

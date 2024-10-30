@@ -4,7 +4,7 @@ export const DEFAULT_LOCALE = 'en';
 
 export const LOCALES = {
 	en: 'en-US',
-	de: 'de-de',
+	de: 'de-DE',
 };
 
 export type UiType = keyof typeof ui;
@@ -36,8 +36,7 @@ export function pathNameIsInLanguage(pathname: string, lang: UiType): boolean {
 
 function pathNameStartsWithLanguage(pathname: string): boolean {
 	const languages = Object.keys(ui);
-	for (let i = 0; i < languages.length; i++) {
-		const lang = languages[i];
+	for (const lang of languages) {
 		if (pathname.startsWith(`/${lang}`)) {
 			return true;
 		}

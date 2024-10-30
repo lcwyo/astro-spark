@@ -53,13 +53,12 @@
 	"packageManager": "yarn@4.5.1",
 	"lint-staged": {
 		"*.{js,ts,tsx}": [
-			"eslint"
+			"eslint  --cache --fix"
 		],
 		"*.md": [
 			"prettier --write"
 		],
-		"*.js": "eslint --cache --fix",
-		"*.{js,css,md}": "prettier --write"
+		"*.{ts,js,css,md}": "prettier --write"
 	},
 	"husky": {
 		"hooks": {
