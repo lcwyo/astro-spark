@@ -1,11 +1,23 @@
 /** @type {import("prettier").Config} */
 export default {
-  plugins: ["prettier-plugin-astro"],
+  printWidth: 100,
+  semi: true,
+  singleQuote: true,
+  tabWidth: 2,
+  trailingComma: 'all',
+  useTabs: true,
+  plugins: ['prettier-plugin-astro'],
   overrides: [
     {
-      files: "*.astro",
+      files: ['.*', '*.md', '*.toml', '*.yml'],
       options: {
-        parser: "astro",
+        useTabs: false,
+      },
+    },
+    {
+      files: ['**/*.astro'],
+      options: {
+        parser: 'astro',
       },
     },
   ],
